@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Urfu Finder</title>
-  <script src="script.js"></script>
- </head>
- <body>
-  <h1>Urfu Finder</h1>
-  <p>We will help you in choosing the direction of admission to UrFU.</p>
-  <p>Join us and wait updates.</p>
- </body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Urfu Finder</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Urfu Finder</h1>
+        <p>We will help you in choosing the direction of admission to UrFU.</p>
+        <p>Join us and wait updates.</p>
+        <div class="quiz" id="quiz">
+            <div class="quiz-questions">
+                <div class="quiz-questions-item">
+                    <div class="quiz-questions-item_question">Вопрос 1</div>
+                    <ul class="quiz-questions-item_answers">
+                        <li>
+                            <label>
+                                <input type="radio">
+                                Ответ 1
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio">
+                                Ответ 2
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+            <div class="quiz-indicator"></div>
+            <div class="quiz-result"></div>
+            <div class="quiz-controls">
+                <button class="btn-next">Далее</button>
+                <button class="btn-restart">Заново</button>
+            </div>  
+        </div>
+    </body>
 </html>
