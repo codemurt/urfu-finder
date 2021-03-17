@@ -11,3 +11,7 @@ body{
 .quiz-questions {
     margin-bottom: 20px;
 }
+
+.btn-restart{
+    display: none;
+}
