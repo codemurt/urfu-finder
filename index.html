@@ -3,14 +3,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Urfu Finder</title>
-        <script src="script.js"></script>
     </head>
     <body>
         <h1>Urfu Finder</h1>
         <p>We will help you in choosing the direction of admission to UrFU.</p>
         <p>Join us and wait updates.</p>
         <div class="quiz" id="quiz">
-            <div class="quiz-questions">
+            <div class="quiz-questions" id="questions">
                 <div class="quiz-questions-item">
                     <div class="quiz-questions-item_question">Вопрос 1</div>
                     <ul class="quiz-questions-item_answers">
@@ -29,8 +28,8 @@
                     </ul>
                 </div>
             </div>  
-            <div class="quiz-indicator">1/21</div>
-            <div class="quiz-result">
+            <div class="quiz-indicator" id="indicator">1/21</div>
+            <div class="quiz-results" id="results">
                 <div class="quiz-results-item">
                     <div class="quiz-results-item_question">Вопрос 1</div>
                     <ul class="quiz-results-item_answers">
@@ -44,9 +43,11 @@
                 </div>
             </div>
             <div class="quiz-controls">
-                <button class="btn-next">Далее</button>
-                <button class="btn-restart">Заново</button>
+                <button class="btn-next" id="btn-next">Далее</button>
+                <button class="btn-restart" id="btn-next">Заново</button>
             </div>  
         </div>
+
+        <script src="script.js"></script>
     </body>
 </html>
