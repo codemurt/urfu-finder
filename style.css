@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.quiz {
+    margin: 0 auto;
+    width: 600px;
+}
