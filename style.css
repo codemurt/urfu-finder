@@ -7,7 +7,8 @@ body {
 	width: 600px;
 }
 
-.quiz-questions {
+.quiz-questions, 
+.quiz-indicator {
 	margin-bottom: 20px;
 }
 
@@ -16,10 +17,19 @@ body {
 
 .quiz-questions-item__question {
 	margin-bottom: 20px;
+	font-size: 20px;
 }
 
 .quiz-questions-item__answers {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+.btn-restart {
+	display: none;
+}
+
+.btn-next {
+	
 }
