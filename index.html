@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <title>Urfu Finder</title>
   <script src="script.js"></script>
  </head>
@@ -9,5 +10,34 @@
   <h1>Urfu Finder</h1>
   <p>We will help you in choosing the direction of admission to UrFU.</p>
   <p>Join us and wait updates.</p>
+
+  <div class="quiz" id="quiz">
+  	<div class="quiz-questions">
+  		<div class="quiz-questions-item">
+  			<div class="quiz-questions-item__question">Вопрос 1</div>
+  			<ul class="quiz-questions-item__answers">
+  				<li>
+  					<label>
+  						<input type="radio" name="q1">
+  						Ответ 1
+  					</label>
+  				</li>
+
+				<li>
+  					<label>
+  						<input type="radio" name="q1">
+  						Ответ 2
+  					</label>
+  				</li>
+  			</ul>
+  		</div>
+  	</div>
+  	<div class="quiz-indicator"></div>
+  	<div class="quiz-results"></div>
+  	<div class="quiz-controls">
+  		<button class="btn-next">Далее</button>
+  		<button class="btn-restart">С начала</button>
+  	</div>
+  </div>
  </body>
 </html>

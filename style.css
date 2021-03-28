@@ -1,0 +1,25 @@
+body {
+	margin: 20;
+	font-family: JetBrains Mono;
+}
+
+.quiz {
+	width: 600px;
+}
+
+.quiz-questions {
+	margin-bottom: 20px;
+}
+
+.quiz-questions-item {
+}
+
+.quiz-questions-item__question {
+	margin-bottom: 20px;
+}
+
+.quiz-questions-item__answers {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
