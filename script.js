@@ -37,13 +37,20 @@ const DATA = [
 	}
 ];
 
+let localResults = {};
+
 const quiz = document.getElementById('quiz');
 const question = document.getElementById('question');
+const results = document.getElementById('results');
 const indicator = document.getElementById('indicator');
 const btnNext = document.getElementById('btn-next');
 const btnRestart = document.getElementById('btn-restart');
 
 const renderQuestions = (index) => {
+	renderIndicator(index + 1);
+
+	question.dataset.currentStep = index;
+
 	const renderAnswers = () => DATA[index].answers
 		.map((answer) =>
 			`
@@ -64,18 +71,54 @@ const renderQuestions = (index) => {
 	`;
 };
 
-const renderResults = () => {};
+const renderResults = () => {
+    let	content = '';
 
-const renderIndicator = () => {};
+    const getAnswers = (questionIndex) => DATA[questionIndex].answers
+    .map((answer) => `<li>${answer.value}</li>`)
+    	.join('');
+
+    DATA.forEach((question, index) => {
+    	content += `
+    		<div class="quiz-results-item">
+	  			<div class="quiz-results-item__question">
+	  				${question.question}
+	  			</div>
+	  			<ul class="quiz-results-item__anwsers">${getAnswers(index)}</ul>
+  			</div>
+    	`
+    })
+
+	results.innerHTML = content;
+};
+
+const renderIndicator = (currentStep) => {
+	indicator.innerHTML = `${currentStep}/${DATA.length}`;
+};
 
 quiz.addEventListener('change', (event) => {
-	// logic ans
+	if (event.target.classList.contains('answer-input')){
+		localResults[event.target.name] = event.target.value;
+		btnNext.disabled = false;
+		console.log(localResults);
+	}
 });
 
 quiz.addEventListener('click', (event) => {
 	if (event.target.classList.contains('btn-next')){
 		console.log('Next');
+		const nextQuestionIndex = Number(question.dataset.currentStep) + 1; 
+	
+		if (DATA.length === Number(question.dataset.currentStep) + 1){
+			renderResults();
+		} else {
+			renderQuestions(nextQuestionIndex);
+		}
+
+		btnNext.disabled = true;
 	}
 });
 
 renderQuestions(0);
+
+// 45:16
