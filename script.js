@@ -43,7 +43,26 @@ const indicator = document.getElementById('indicator');
 const btnNext = document.getElementById('btn-next');
 const btnRestart = document.getElementById('btn-restart');
 
-const renderQuestions = () => {};
+const renderQuestions = (index) => {
+	const renderAnswers = () => DATA[index].answers
+		.map((answer) =>
+			`
+				<li>
+  					<label>
+  						<input class="answer-input" type="radio" name=${index} value=${answer.id}>
+  						${answer.value}
+  					</label>
+  				</li>
+			`)
+		.join('');
+
+	question.innerHTML = `
+		<div class="quiz-questions-item">
+  			<div class="quiz-questions-item__question">${DATA[index].question}</div>
+  			<ul class="quiz-questions-item__answers">${renderAnswers()}</ul>
+  		</div>
+	`;
+};
 
 const renderResults = () => {};
 
@@ -59,4 +78,4 @@ quiz.addEventListener('click', (event) => {
 	}
 });
 
-// 19:58 of video
+renderQuestions(0);
