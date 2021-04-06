@@ -1,45 +1,28 @@
+const Psychotypes = {
+	HumanNature: 'Человек-природа',
+	HumanTech: 'Человек-техника',
+	HumanSigh: 'Человек-знаковая система',
+	HumanArt: 'Челоевек-художественный образ',
+	HumanHuman: 'Человек-человек'
+}
+
 const DATA = [
 	{
-		question: 'Вопрос 1',
-		answers: [
-			{
-				id: '0',
-				value: 'Ответ 1',
-				correct: true
-			},
-			{
-				id: '1',
-				value: 'Ответ 2',
-				correct: false
-			},
-			{
-				id: '2',
-				value: 'Ответ 3',
-				correct: false
-			}
-		]
+		question: '1. Легко знакомлюсь с людьми.',
+		Psychotypes: Psychotypes.HumanHuman
 	},
 
 	{
-		question: 'Вопрос 2',
-		answers: [
-			{
-				id: '3',
-				value: 'Ответ 4',
-				correct: true
-			},
-			{
-				id: '4',
-				value: 'Ответ 5',
-				correct: false
-			}
-		]	
+		question: '2. Охотно и подолгу могу что-нибудь мастерить.',
+		Psychotypes: Psychotypes.HumanTech
 	}
 ];
+
 
 let localResults = {};
 
 const quiz = document.getElementById('quiz');
+const answer = document.getElementById('answer');
 const question = document.getElementById('question');
 const results = document.getElementById('results');
 const indicator = document.getElementById('indicator');
@@ -51,57 +34,16 @@ const renderQuestions = (index) => {
 
 	question.dataset.currentStep = index;
 
-	const renderAnswers = () => DATA[index].answers
-		.map((answer) =>
-			`
-				<li>
-  					<label>
-  						<input class="answer-input" type="radio" name=${index} value=${answer.id}>
-  						${answer.value}
-  					</label>
-  				</li>
-			`)
-		.join('');
+	answer.innerHTML = `
+		<button type="button" class="answer-input" id="yes" name=${index}>Да</button>
+  		<button type="button" class="answer-input" id="no" name=${index}>Нет</button>
+	`;
 
 	question.innerHTML = `
 		<div class="quiz-questions-item">
   			<div class="quiz-questions-item__question">${DATA[index].question}</div>
-  			<ul class="quiz-questions-item__answers">${renderAnswers()}</ul>
   		</div>
 	`;
-};
-
-const renderResults = () => {
-    let	content = '';
-
-    const getClassname = (answer, questionIndex) => {
-    	let classname = '';
-
-    	if (!answer.correct && answer.id === localResults[questionIndex]) {
-    		classname = 'answer--invalid';
-    	} else if (answer.correct) {
-    		classname = 'answer--valid';
-    	}
-
-    	return classname;
-    }
-
-    const getAnswers = (questionIndex) => DATA[questionIndex].answers
-    .map((answer) => `<li class=${getClassname(answer, questionIndex)}>${answer.value}</li>`)
-    	.join('');
-
-    DATA.forEach((question, index) => {
-    	content += `
-    		<div class="quiz-results-item">
-	  			<div class="quiz-results-item__question">
-	  				${question.question}
-	  			</div>
-	  			<ul class="quiz-results-item__anwsers">${getAnswers(index)}</ul>
-  			</div>
-    	`
-    })
-
-	results.innerHTML = content;
 };
 
 const renderIndicator = (currentStep) => {
@@ -115,6 +57,7 @@ quiz.addEventListener('change', (event) => {
 		console.log(localResults);
 	}
 });
+
 
 quiz.addEventListener('click', (event) => {
 	if (event.target.classList.contains('btn-next')){
@@ -152,5 +95,3 @@ quiz.addEventListener('click', (event) => {
 });
 
 renderQuestions(0);
-
-// 45:16

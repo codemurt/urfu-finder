@@ -49,11 +49,3 @@ body {
 .indicator--visible {
 	display: block;
 }
-
-.answer--invalid {
-	color: red;
-}
-
-.answer--valid {
-	color: green;
-}
