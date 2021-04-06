@@ -24,6 +24,7 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	margin-bottom: 20px;
 }
 
 .btn-restart {
@@ -36,4 +37,23 @@ body {
 
 .resuls {
 	display: none;
+}
+
+.questions-hidden,
+.indicator--hidden,
+.btn-next--hidden {
+	display: none;
+}
+
+.btn-restart--visible,
+.indicator--visible {
+	display: block;
+}
+
+.answer--invalid {
+	color: red;
+}
+
+.answer--valid {
+	color: green;
 }

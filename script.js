@@ -74,8 +74,20 @@ const renderQuestions = (index) => {
 const renderResults = () => {
     let	content = '';
 
+    const getClassname = (answer, questionIndex) => {
+    	let classname = '';
+
+    	if (!answer.correct && answer.id === localResults[questionIndex]) {
+    		classname = 'answer--invalid';
+    	} else if (answer.correct) {
+    		classname = 'answer--valid';
+    	}
+
+    	return classname;
+    }
+
     const getAnswers = (questionIndex) => DATA[questionIndex].answers
-    .map((answer) => `<li>${answer.value}</li>`)
+    .map((answer) => `<li class=${getClassname(answer, questionIndex)}>${answer.value}</li>`)
     	.join('');
 
     DATA.forEach((question, index) => {
@@ -109,13 +121,33 @@ quiz.addEventListener('click', (event) => {
 		console.log('Next');
 		const nextQuestionIndex = Number(question.dataset.currentStep) + 1; 
 	
-		if (DATA.length === Number(question.dataset.currentStep) + 1){
+		if (DATA.length === nextQuestionIndex){
+			question.classList.add('questions-hidden');
+			results.classList.add('indicator--visible');
+			indicator.classList.add('indicator--hidden');
+			btnNext.classList.add('btn-next--hidden');
+			btnRestart.classList.add('btn-restart--visible');
 			renderResults();
 		} else {
 			renderQuestions(nextQuestionIndex);
 		}
 
 		btnNext.disabled = true;
+	}
+
+	if (event.target.classList.contains('btn-restart')){
+		console.log('Restart');
+
+		results.innerHTML = '';
+		localResults = {};
+
+		question.classList.remove('questions-hidden');
+		results.classList.remove('indicator--visible');
+		indicator.classList.remove('indicator--hidden');
+		btnNext.classList.remove('btn-next--hidden');
+		btnRestart.classList.remove('btn-restart--visible');
+
+		renderQuestions(0);
 	}
 });
 
