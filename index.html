@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <title>Urfu Finder</title>
-  <script src="script.js"></script>
  </head>
  <body>
-  <h1>Urfu Finder</h1>
-  <p>We will help you in choosing the direction of admission to UrFU.</p>
-  <p>Join us and wait updates.</p>
+  <div class="quiz" id="quiz">
+    <div class="quiz-questions" id="questions"></div>
+    <div class="quiz-indicator" id="indicator"></div>
+
+    <div class="quiz-results" id="results"></div>
+
+    <div class="quiz-controls">
+      <button class="btn-back" id="btn-back" disabled>Назад</button>
+      <button class="btn-restart" id="btn-restart">С начала</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
  </body>
 </html>
