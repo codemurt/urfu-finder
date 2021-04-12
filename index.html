@@ -3,21 +3,20 @@
  <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <title>Urfu Finder</title>
  </head>
  <body>
   <div class="quiz" id="quiz">
-  	<div class="quiz-questions" id="question"></div>
-  	<div class="quiz-answer" id="answer"></div>
+    <div class="quiz-questions" id="questions"></div>
+    <div class="quiz-indicator" id="indicator"></div>
 
-  	<div class="quiz-results" id="results"></div>
+    <div class="quiz-results" id="results"></div>
 
-  	<div class="quiz-indicator" id="indicator">1/10</div>
-
-  	<div class="quiz-controls">
-  		 <!-- <button class="btn-next" id="btn-next" disabled="true">Далее</button> -->
-  		<button class="btn-restart" id="btn-restart">С начала</button>
-  	</div>
+    <div class="quiz-controls">
+      <button class="btn-back" id="btn-back" disabled>Назад</button>
+      <button class="btn-restart" id="btn-restart">С начала</button>
+    </div>
   </div>
   <script src="script.js"></script>
  </body>

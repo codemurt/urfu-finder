@@ -1,10 +1,11 @@
 body {
 	margin: 20;
-	font-family: JetBrains Mono;
+	font-family: Roboto Mono;
 }
 
 .quiz {
 	width: 600px;
+	margin: 0 auto;
 }
 
 .quiz-questions, 
@@ -12,18 +13,18 @@ body {
 	margin-bottom: 20px;
 }
 
-.quiz-questions-item {
-}
-
 .quiz-questions-item__question {
 	margin-bottom: 20px;
 	font-size: 20px;
 }
 
-.quiz-questions-item__answers {
+.quiz-results-item {
+	margin-bottom: 20px;
+}
+
+.quiz-questions-item__buttons {
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	margin-bottom: 20px;
 }
 
@@ -31,21 +32,18 @@ body {
 	display: none;
 }
 
-.btn-next {
-	
-}
-
-.resuls {
+.results {
 	display: none;
 }
 
 .questions-hidden,
 .indicator--hidden,
-.btn-next--hidden {
+.btn-back--hidden {
 	display: none;
 }
 
 .btn-restart--visible,
-.indicator--visible {
+.indicator--visible,
+.results--visible {
 	display: block;
 }
