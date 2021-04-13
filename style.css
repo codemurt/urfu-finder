@@ -1,4 +1,49 @@
-body{
-    margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+	margin: 20;
+	font-family: Roboto Mono;
+}
+
+.quiz {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.quiz-questions, 
+.quiz-indicator {
+	margin-bottom: 20px;
+}
+
+.quiz-questions-item__question {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.quiz-results-item {
+	margin-bottom: 20px;
+}
+
+.quiz-questions-item__buttons {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.btn-restart {
+	display: none;
+}
+
+.results {
+	display: none;
+}
+
+.questions-hidden,
+.indicator--hidden,
+.btn-back--hidden {
+	display: none;
+}
+
+.btn-restart--visible,
+.indicator--visible,
+.results--visible {
+	display: block;
 }

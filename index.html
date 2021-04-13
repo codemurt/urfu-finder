@@ -1,53 +1,23 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Urfu Finder</title>
-    </head>
-    <body>
-        <h1>Urfu Finder</h1>
-        <p>We will help you in choosing the direction of admission to UrFU.</p>
-        <p>Join us and wait updates.</p>
-        <div class="quiz" id="quiz">
-            <div class="quiz-questions" id="questions">
-                <div class="quiz-questions-item">
-                    <div class="quiz-questions-item_question">Вопрос 1</div>
-                    <ul class="quiz-questions-item_answers">
-                        <li>
-                            <label>
-                                <input type="radio" name="an1">
-                                Ответ 1
-                            </label>
-                        </li>
-                        <li>
-                            <label>
-                                <input type="radio" name="an1">
-                                Ответ 2
-                            </label>
-                        </li>
-                    </ul>
-                </div>
-            </div>  
-            <div class="quiz-indicator" id="indicator">1/21</div>
-            <div class="quiz-results" id="results">
-                <div class="quiz-results-item">
-                    <div class="quiz-results-item_question">Вопрос 1</div>
-                    <ul class="quiz-results-item_answers">
-                        <li>
-                            Ответ 1
-                        </li>
-                        <li>
-                            Ответ 2
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="quiz-controls">
-                <button class="btn-next" id="btn-next">Далее</button>
-                <button class="btn-restart" id="btn-next">Заново</button>
-            </div>  
-        </div>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <title>Urfu Finder</title>
+ </head>
+ <body>
+  <div class="quiz" id="quiz">
+    <div class="quiz-questions" id="questions"></div>
+    <div class="quiz-indicator" id="indicator"></div>
 
-        <script src="script.js"></script>
-    </body>
+    <div class="quiz-results" id="results"></div>
+
+    <div class="quiz-controls">
+      <button class="btn-back" id="btn-back" disabled>Назад</button>
+      <button class="btn-restart" id="btn-restart">С начала</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+ </body>
 </html>
