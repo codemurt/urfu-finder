@@ -56,134 +56,134 @@ const DATA = [
 	},
 
 	{
-		question: '9. Обычно делаю мало ошибок в письменных работах.',
+		question: '9. Мои изделия обычно вызывают интерес у товарищей, старших.',
+		Psychotype: Psychotypes.HumanTech,
+		value: 2
+	},
+
+	{
+		question: '10. Люди считают, что у меня есть художественные способности.',
+		Psychotype: Psychotypes.HumanArt,
+		value: 2
+	},
+
+	{
+		question: '11. Охотно читаю о растениях, животных.',
+		Psychotype: Psychotypes.HumanNature,
+		value: 1
+	},
+
+	{
+		question: '12. Принимаю участие в спектаклях, концертах.',
+		Psychotype: Psychotypes.HumanArt,
+		value: 1
+	},
+
+	{
+		question: '13. Люблю читать об устройстве механизмов, приборов, машин.',
+		Psychotype: Psychotypes.HumanTech,
+		value: 1
+	},
+
+	{
+		question: '14. Подолгу могу разгадывать головоломки, задачи, ребусы.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 2
+	},
+
+	{
+		question: '15. Легко улаживаю разногласия между людьми.',
+		Psychotype: Psychotypes.HumanHuman,
+		value: 2
+	},
+
+	{
+		question: '16. Считают, что у меня есть способности к работе с техникой.',
+		Psychotype: Psychotypes.HumanTech,
+		value: 2
+	},
+
+	{
+		question: '17. Людям нравится мое художественное творчество.',
+		Psychotype: Psychotypes.HumanArt,
+		value: 2
+	},
+
+	{
+		question: '18. У меня есть способности к работе с растениями и животными.',
+		Psychotype: Psychotypes.HumanNature,
+		value: 2
+	},
+
+	{
+		question: '19. Я могу ясно излагать свои мысли в письменной форме.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 2
+	},
+
+	{
+		question: '20. Я почти никогда ни с кем не ссорюсь.',
+		Psychotype: Psychotypes.HumanHuman,
+		value: 1
+	},
+
+	{
+		question: '21. Результаты моего технического творчества одобряют даже незнакомые люди.',
+		Psychotype: Psychotypes.HumanTech,
+		value: 1
+	},
+
+	{
+		question: '22. Без особого труда усваиваю иностранные языки.',
 		Psychotype: Psychotypes.HumanSign,
 		value: 1
 	},
 
 	{
-		question: '10. Обычно делаю мало ошибок в письменных работах.',
+		question: '23. Мне часто случается помогать даже незнакомым людям',
+		Psychotype: Psychotypes.HumanHuman,
+		value: 2
+	},
+
+	{
+		question: '24. Подолгу могу заниматься музыкой, рисованием, читать книги и т. д.',
+		Psychotype: Psychotypes.HumanArt,
+		value: 1
+	},
+
+	{
+		question: '25. Могу влиять на ход развития растений и животных.',
+		Psychotype: Psychotypes.HumanNature,
+		value: 2
+	},
+
+	{
+		question: '26. Люблю разбираться в устройстве механизмов, приборов.',
+		Psychotype: Psychotypes.HumanTech,
+		value: 1
+	},
+
+	{
+		question: '27. Мне обычно удается убедить людей в своей правоте.',
+		Psychotype: Psychotypes.HumanHuman,
+		value: 1
+	},
+
+	{
+		question: '28. Охотно наблюдаю за растениями или животными.',
+		Psychotype: Psychotypes.HumanNature,
+		value: 1
+	},
+
+	{
+		question: '29.Охотно читаю научно-популярную, критическую литературу, публицистику.',
 		Psychotype: Psychotypes.HumanSign,
 		value: 1
 	},
 
 	{
-		question: '11. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '12. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '13. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '14. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '15. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '16. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '17. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '18. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '19. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '20. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '21. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '22. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '23. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '24. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '25. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '26. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '27. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '28. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '29. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
-		value: 1
-	},
-
-	{
-		question: '30. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign,
+		question: '30. Стараюсь понять секреты мастерства и пробую свои силы в живописи, музыке и т. п.',
+		Psychotype: Psychotypes.HumanArt,
 		value: 1
 	}
 ];
