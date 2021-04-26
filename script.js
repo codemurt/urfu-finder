@@ -9,42 +9,182 @@ const Psychotypes = {
 const DATA = [
 	{
 		question: '1. Легко знакомлюсь с людьми.',
-		Psychotype: Psychotypes.HumanHuman
+		Psychotype: Psychotypes.HumanHuman,
+		value: 1
 	},
 
 	{
 		question: '2. Охотно и подолгу могу что-нибудь мастерить.',
-		Psychotype: Psychotypes.HumanTech
+		Psychotype: Psychotypes.HumanTech,
+		value: 1
 	},
 
 	{
 		question: '3. Люблю ходить в музеи, театры, на выставки.',
-		Psychotype: Psychotypes.HumanArt
+		Psychotype: Psychotypes.HumanArt,
+		value: 1
 	},
 
 	{
 		question: '4. Охотно и постоянно ухаживаю за растениями, животными.',
-		Psychotype: Psychotypes.HumanNature
+		Psychotype: Psychotypes.HumanNature,
+		value: 1
 	},
 
 	{
 		question: '5. Охотно и подолгу могу что-нибудь вычислять, чертить.',
-		Psychotype: Psychotypes.HumanSign
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
 	},
 
 	{
 		question: '6. С удовольствием общаюсь со сверстниками или малышами.',
-		Psychotype: Psychotypes.HumanHuman
+		Psychotype: Psychotypes.HumanHuman,
+		value: 1
 	},
 
 	{
 		question: '7. С удовольствием ухаживаю за растениями и животными.',
-		Psychotype: Psychotypes.HumanNature
+		Psychotype: Psychotypes.HumanNature,
+		value: 1
 	},
 
 	{
 		question: '8. Обычно делаю мало ошибок в письменных работах.',
-		Psychotype: Psychotypes.HumanSign
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '9. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '10. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '11. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '12. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '13. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '14. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '15. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '16. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '17. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '18. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '19. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '20. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '21. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '22. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '23. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '24. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '25. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '26. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '27. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '28. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '29. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
+	},
+
+	{
+		question: '30. Обычно делаю мало ошибок в письменных работах.',
+		Psychotype: Psychotypes.HumanSign,
+		value: 1
 	}
 ];
 
