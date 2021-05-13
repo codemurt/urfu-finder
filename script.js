@@ -313,7 +313,7 @@ opening.addEventListener('click', (event) => {
 		btnBack.classList.remove('btn-back--hidden');
 
 		renderQuestions(0);
-}
+	}
 });
 
 btnBack.classList.add('btn-back--hidden');
