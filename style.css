@@ -5,7 +5,7 @@ body {
 
 .quiz,
 .opening {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -28,6 +28,7 @@ body {
 	padding: 0;
 	margin-bottom: 20px;
 }
+
 
 .btn-restart {
 	display: none;
