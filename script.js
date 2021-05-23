@@ -8,181 +8,181 @@ const Psychotypes = {
 
 const DATA = [
 	{
-		question: '1. Легко знакомлюсь с людьми.',
+		question: 'Легко знакомлюсь с людьми.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1
 	},
 
 	{
-		question: '2. Охотно и подолгу могу что-нибудь мастерить.',
+		question: 'Охотно и подолгу могу что-нибудь мастерить.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1
 	},
 
 	{
-		question: '3. Люблю ходить в музеи, театры, на выставки.',
+		question: 'Люблю ходить в музеи, театры, на выставки.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1
 	},
 
 	{
-		question: '4. Охотно и постоянно ухаживаю за растениями, животными.',
+		question: 'Охотно и постоянно ухаживаю за растениями, животными.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1
 	},
 
 	{
-		question: '5. Охотно и подолгу могу что-нибудь вычислять, чертить.',
+		question: 'Охотно и подолгу могу что-нибудь вычислять, чертить.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1
 	},
 
 	{
-		question: '6. С удовольствием общаюсь со сверстниками или малышами.',
+		question: 'С удовольствием общаюсь со сверстниками или малышами.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1
 	},
 
 	{
-		question: '7. С удовольствием ухаживаю за растениями и животными.',
+		question: 'С удовольствием ухаживаю за растениями и животными.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1
 	},
 
 	{
-		question: '8. Обычно делаю мало ошибок в письменных работах.',
+		question: 'Обычно делаю мало ошибок в письменных работах.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1
 	},
 
 	{
-		question: '9. Мои изделия обычно вызывают интерес у товарищей, старших.',
+		question: 'Мои изделия обычно вызывают интерес у товарищей, старших.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 2
 	},
 
 	{
-		question: '10. Люди считают, что у меня есть художественные способности.',
+		question: 'Люди считают, что у меня есть художественные способности.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 2
 	},
 
 	{
-		question: '11. Охотно читаю о растениях, животных.',
+		question: 'Охотно читаю о растениях, животных.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1
 	},
 
 	{
-		question: '12. Принимаю участие в спектаклях, концертах.',
+		question: 'Принимаю участие в спектаклях, концертах.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1
 	},
 
 	{
-		question: '13. Люблю читать об устройстве механизмов, приборов, машин.',
+		question: 'Люблю читать об устройстве механизмов, приборов, машин.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1
 	},
 
 	{
-		question: '14. Подолгу могу разгадывать головоломки, задачи, ребусы.',
+		question: 'Подолгу могу разгадывать головоломки, задачи, ребусы.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 2
 	},
 
 	{
-		question: '15. Легко улаживаю разногласия между людьми.',
+		question: 'Легко улаживаю разногласия между людьми.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 2
 	},
 
 	{
-		question: '16. Считают, что у меня есть способности к работе с техникой.',
+		question: 'Считают, что у меня есть способности к работе с техникой.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 2
 	},
 
 	{
-		question: '17. Людям нравится мое художественное творчество.',
+		question: 'Людям нравится мое художественное творчество.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 2
 	},
 
 	{
-		question: '18. У меня есть способности к работе с растениями и животными.',
+		question: 'У меня есть способности к работе с растениями и животными.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 2
 	},
 
 	{
-		question: '19. Я могу ясно излагать свои мысли в письменной форме.',
+		question: 'Я могу ясно излагать свои мысли в письменной форме.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 2
 	},
 
 	{
-		question: '20. Я почти никогда ни с кем не ссорюсь.',
+		question: 'Я почти никогда ни с кем не ссорюсь.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1
 	},
 
 	{
-		question: '21. Результаты моего технического творчества одобряют даже незнакомые люди.',
+		question: 'Результаты моего технического творчества одобряют даже незнакомые люди.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1
 	},
 
 	{
-		question: '22. Без особого труда усваиваю иностранные языки.',
+		question: 'Без особого труда усваиваю иностранные языки.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1
 	},
 
 	{
-		question: '23. Мне часто случается помогать даже незнакомым людям',
+		question: 'Мне часто случается помогать даже незнакомым людям',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 2
 	},
 
 	{
-		question: '24. Подолгу могу заниматься музыкой, рисованием, читать книги и т. д.',
+		question: 'Подолгу могу заниматься музыкой, рисованием, читать книги и т. д.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1
 	},
 
 	{
-		question: '25. Могу влиять на ход развития растений и животных.',
+		question: 'Могу влиять на ход развития растений и животных.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 2
 	},
 
 	{
-		question: '26. Люблю разбираться в устройстве механизмов, приборов.',
+		question: 'Люблю разбираться в устройстве механизмов, приборов.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1
 	},
 
 	{
-		question: '27. Мне обычно удается убедить людей в своей правоте.',
+		question: 'Мне обычно удается убедить людей в своей правоте.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1
 	},
 
 	{
-		question: '28. Охотно наблюдаю за растениями или животными.',
+		question: 'Охотно наблюдаю за растениями или животными.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1
 	},
 
 	{
-		question: '29.Охотно читаю научно-популярную, критическую литературу, публицистику.',
+		question: 'Охотно читаю научно-популярную, критическую литературу, публицистику.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1
 	},
 
 	{
-		question: '30. Стараюсь понять секреты мастерства и пробую свои силы в живописи, музыке и т. п.',
+		question: 'Стараюсь понять секреты мастерства и пробую свои силы в живописи, музыке и т. п.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1
 	}
@@ -238,16 +238,37 @@ const renderResults = () => {
 				sum += Number(localResults[key].resultWeight);
 		}
 
-		return sum;
+		return (sum + 8) / 16 * 100;
 	};
+
+	let percentHumanNature = countPsychotype(Psychotypes.HumanNature);
+	let percentHumanTech = countPsychotype(Psychotypes.HumanTech);
+	let percentHumanSign = countPsychotype(Psychotypes.HumanSign);
+	let percentHumanArt = countPsychotype(Psychotypes.HumanArt);
+	let percentHumanHuman = countPsychotype(Psychotypes.HumanHuman);
 
 	results.innerHTML = `
 		<div class="quiz-results-item">
-			Человек-природа: ${countPsychotype(Psychotypes.HumanNature)} </br>
-			Человек-техника: ${countPsychotype(Psychotypes.HumanTech)} </br>
-			Человек-знаковая система: ${countPsychotype(Psychotypes.HumanSign)} </br>
-			Челоевек-художественный образ: ${countPsychotype(Psychotypes.HumanArt)} </br>
-			Человек-человек: ${countPsychotype(Psychotypes.HumanHuman)} </br>
+			Человек-природа:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanNature}%;" aria-valuenow="${percentHumanNature}" aria-valuemin="0" aria-valuemax="100">${percentHumanNature}%</div>
+			</div>
+			Человек-техника:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanTech}%;" aria-valuenow="${percentHumanTech}" aria-valuemin="0" aria-valuemax="100">${percentHumanTech}%</div>
+			</div>
+			Человек-знаковая система:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanSign}%;" aria-valuenow="${percentHumanSign}" aria-valuemin="0" aria-valuemax="100">${percentHumanSign}%</div>
+			</div>
+			Челоевек-художественный образ:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanArt}%;" aria-valuenow="${percentHumanArt}" aria-valuemin="0" aria-valuemax="100">${percentHumanArt}%</div>
+			</div>
+			Человек-человек:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanHuman}%;" aria-valuenow="${percentHumanHuman}" aria-valuemin="0" aria-valuemax="100">${percentHumanHuman}%</div>
+			</div>
   		</div>	
 	`;
 };
@@ -308,7 +329,6 @@ quiz.addEventListener('click', (event) => {
 
 opening.addEventListener('click', (event) => {
 	if (event.target.classList.contains('btn-start')){
-
 		opening.classList.add('opening--hidden');
 		btnBack.classList.remove('btn-back--hidden');
 

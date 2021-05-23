@@ -1,12 +1,11 @@
 body {
 	margin: 20;
-	font-family: Roboto Mono;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .quiz,
 .opening {
-	width: 600px;
-	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .quiz-questions, 
