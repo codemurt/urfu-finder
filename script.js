@@ -238,16 +238,37 @@ const renderResults = () => {
 				sum += Number(localResults[key].resultWeight);
 		}
 
-		return sum;
+		return (sum + 8) / 16 * 100;
 	};
+
+	let percentHumanNature = countPsychotype(Psychotypes.HumanNature);
+	let percentHumanTech = countPsychotype(Psychotypes.HumanTech);
+	let percentHumanSign = countPsychotype(Psychotypes.HumanSign);
+	let percentHumanArt = countPsychotype(Psychotypes.HumanArt);
+	let percentHumanHuman = countPsychotype(Psychotypes.HumanHuman);
 
 	results.innerHTML = `
 		<div class="quiz-results-item">
-			Человек-природа: ${countPsychotype(Psychotypes.HumanNature)} </br>
-			Человек-техника: ${countPsychotype(Psychotypes.HumanTech)} </br>
-			Человек-знаковая система: ${countPsychotype(Psychotypes.HumanSign)} </br>
-			Челоевек-художественный образ: ${countPsychotype(Psychotypes.HumanArt)} </br>
-			Человек-человек: ${countPsychotype(Psychotypes.HumanHuman)} </br>
+			Человек-природа:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanNature}%;" aria-valuenow="${percentHumanNature}" aria-valuemin="0" aria-valuemax="100">${percentHumanNature}%</div>
+			</div>
+			Человек-техника:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanTech}%;" aria-valuenow="${percentHumanTech}" aria-valuemin="0" aria-valuemax="100">${percentHumanTech}%</div>
+			</div>
+			Человек-знаковая система:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanSign}%;" aria-valuenow="${percentHumanSign}" aria-valuemin="0" aria-valuemax="100">${percentHumanSign}%</div>
+			</div>
+			Челоевек-художественный образ:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanArt}%;" aria-valuenow="${percentHumanArt}" aria-valuemin="0" aria-valuemax="100">${percentHumanArt}%</div>
+			</div>
+			Человек-человек:</br>
+			<div class="progress">
+  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanHuman}%;" aria-valuenow="${percentHumanHuman}" aria-valuemin="0" aria-valuemax="100">${percentHumanHuman}%</div>
+			</div>
   		</div>	
 	`;
 };
