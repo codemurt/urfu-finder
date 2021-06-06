@@ -2,7 +2,7 @@ const Psychotypes = {
 	HumanNature: 'Человек-природа',
 	HumanTech: 'Человек-техника',
 	HumanSign: 'Человек-знаковая система',
-	HumanArt: 'Челоевек-художественный образ',
+	HumanArt: 'Человек-художественный образ',
 	HumanHuman: 'Человек-человек'
 }
 
@@ -784,7 +784,7 @@ const renderResults = () => {
 				<div class="progress">
 	  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanSign.Count}%;" aria-valuenow="${percentHumanSign.Count}" aria-valuemin="0" aria-valuemax="100">${percentHumanSign.Count}%</div>
 				</div>
-				Челоевек-художественный образ:</br>
+				Человек-художественный образ:</br>
 				<div class="progress">
 	  				<div class="progress-bar" role="progressbar" style="width: ${percentHumanArt.Count}%;" aria-valuenow="${percentHumanArt.Count}" aria-valuemin="0" aria-valuemax="100">${percentHumanArt.Count}%</div>
 				</div>
