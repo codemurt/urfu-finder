@@ -28,8 +28,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.btn-restart,
-.btn-back {
+.btn-restart {
 	display: none;
 }
 
