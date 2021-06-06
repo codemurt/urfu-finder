@@ -725,9 +725,9 @@ const checkAvailableBack = (index) => {
 const renderQuestions = (index) => {
 	const renderButtons = () => {
 		return `
-			<button class="button-input" name="${index}" value="yes" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Да</button>
-			<button class="button-input" name="${index}" value="no" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Нет</button>
-			<button class="button-input" name="${index}" value="nothing" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Затрудняюсь ответить</button>
+			<button class="button-input btn btn-primary" name="${index}" value="yes" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Да</button>
+			<button class="button-input btn btn-primary" name="${index}" value="no" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Нет</button>
+			<button class="button-input btn btn-primary" name="${index}" value="nothing" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Затрудняюсь ответить</button>
 		`;
 	};
 
@@ -862,7 +862,9 @@ quiz.addEventListener('click', (event) => {
 			results.classList.add('results--visible');
 			indicator.classList.add('indicator--hidden');
 			btnBack.classList.add('btn-back--hidden');
+			btnBack.classList.add('d-none');
 			btnRestart.classList.add('btn-restart--visible');
+			btnRestart.classList.remove('d-none');
 			renderResults();
 		} else {
 			renderQuestions(nextQuestionIndex);
@@ -885,7 +887,9 @@ quiz.addEventListener('click', (event) => {
 		results.classList.remove('results--visible');
 		indicator.classList.remove('indicator--hidden');
 		btnBack.classList.remove('btn-back--hidden');
+		btnBack.classList.remove('d-none');
 		btnRestart.classList.remove('btn-restart--visible');
+		btnRestart.classList.add('d-none');
 
 		renderQuestions(0);
 	}
@@ -895,6 +899,7 @@ opening.addEventListener('click', (event) => {
 	if (event.target.classList.contains('btn-start')){
 		opening.classList.add('opening--hidden');
 		btnBack.classList.remove('btn-back--hidden');
+		btnBack.classList.remove('d-none');
 
 		renderQuestions(0);
 	}

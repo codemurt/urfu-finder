@@ -28,7 +28,8 @@ body {
 	margin-bottom: 20px;
 }
 
-.btn-restart {
+.btn-restart,
+.btn-back {
 	display: none;
 }
 
@@ -39,8 +40,7 @@ body {
 .questions--hidden,
 .indicator--hidden,
 .btn-back--hidden,
-.opening--hidden,
-.btn-back--hidden {
+.opening--hidden {
 	display: none;
 }
 
