@@ -39,8 +39,7 @@ body {
 .questions--hidden,
 .indicator--hidden,
 .btn-back--hidden,
-.opening--hidden,
-.btn-back--hidden {
+.opening--hidden {
 	display: none;
 }
 

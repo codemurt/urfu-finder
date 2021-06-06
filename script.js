@@ -199,371 +199,371 @@ let PsychotypeUniversityDirections = new Map();
 PsychotypeUniversityDirections.set(Psychotypes.HumanNature, `
 	<tr>
       <th scope="row">1</th>
-      <td><a href="https://insma.urfu.ru/admissions/bac/44-progs/201-biology">Биология</a></td>
+      <td><a href="https://insma.urfu.ru/admissions/bac/44-progs/201-biology" target="_blank">Биология</a></td>
       <td>ИЕНиМ</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td><a href="https://insma.urfu.ru/admissions/bac/44-progs/216-ecology">Экология и природопользование</a></td>
+      <td><a href="https://insma.urfu.ru/admissions/bac/44-progs/216-ecology" target="_blank">Экология и природопользование</a></td>
       <td>ИЕНиМ</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td><a href="https://info.urfu.ru/ru/entrant-info/bakalavriatspecialitet/technosphere-safety/">Техносферная безопасность</a></td>
+      <td><a href="https://info.urfu.ru/ru/entrant-info/bakalavriatspecialitet/technosphere-safety/" target="_blank">Техносферная безопасность</a></td>
       <td>ИнФО</td>
     </tr>
     <tr>
       <th scope="row">4</th>
-      <td><a href="https://programs.edu.urfu.ru/ru/9873/">Туризм</a></td>
+      <td><a href="https://programs.edu.urfu.ru/ru/9873/" target="_blank">Туризм</a></td>
       <td>УГИ</td>
     </tr>
 	`);
 PsychotypeUniversityDirections.set(Psychotypes.HumanTech, `
 	<tr>
 		<th scope="row">1</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9959/">Биотехнические системы и технологии</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9959/" target="_blank">Биотехнические системы и технологии</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">2</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10080/">Биотехнология</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10080/" target="_blank">Биотехнология</a></td>
 		<td>ХТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">3</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/203-geodesy">Геодезия и дистанционное зондирование</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/203-geodesy" target="_blank">Геодезия и дистанционное зондирование</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">4</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/infocommunication-technologies-communication-systems/">Инфокоммуникационные технологии и системы связи</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/infocommunication-technologies-communication-systems/" target="_blank">Инфокоммуникационные технологии и системы связи</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">5</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/informatics-and-computers/">Информатика и вычислительная техника</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/informatics-and-computers/" target="_blank">Информатика и вычислительная техника</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">6</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/design-technology-electronic-media/">Конструирование и технология электронных средств</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/design-technology-electronic-media/" target="_blank">Конструирование и технология электронных средств</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">7</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10092/">Конструкторско-технологическое обеспечение машиностроительных производств</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10092/" target="_blank">Конструкторско-технологическое обеспечение машиностроительных производств</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">8</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10205/">Лазерная техника и лазерные технологии</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10205/" target="_blank">Лазерная техника и лазерные технологии</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">9</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10124/">Машиностроение</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10124/" target="_blank">Машиностроение</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">10</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10117/">Металлургия</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10117/" target="_blank">Металлургия</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">11</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10102/">Мехатроника и робототехника</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10102/" target="_blank">Мехатроника и робототехника</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">12</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10126/">Наземные транспортно-технологические комплексы</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10126/" target="_blank">Наземные транспортно-технологические комплексы</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">13</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9968/">Наноинженерия</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9968/" target="_blank">Наноинженерия</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">14</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/210-nano">Нанотехнологии и микросистемная техника</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/210-nano" target="_blank">Нанотехнологии и микросистемная техника</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">15</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10329/">Оптотехника</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10329/" target="_blank">Оптотехника</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">16</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9957/">Приборостроение</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9957/" target="_blank">Приборостроение</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">17</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/radio-engineering/">Радиотехника</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/radio-engineering/" target="_blank">Радиотехника</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">18</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10186/">Строительство</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10186/" target="_blank">Строительство</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">19</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/9826/">Строительство</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/9826/" target="_blank">Строительство</a></td>
 		<td>ИСА </td>
 	</tr>
 	<tr>
 		<th scope="row">20</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/8735/">Теплоэнергетика и теплотехника</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/8735/" target="_blank">Теплоэнергетика и теплотехника</a></td>
 		<td>УралЭНИН</td>
 	</tr>
 	<tr>
 		<th scope="row">21</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10034/">Технологические машины и оборудование</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10034/" target="_blank">Технологические машины и оборудование</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">22</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/technology-printing-packaging-production/">Технология полиграфического и упаковочного производства</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/technology-printing-packaging-production/" target="_blank">Технология полиграфического и упаковочного производства</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">23</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/management-technical-systems/">Управление в технических системах</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/management-technical-systems/" target="_blank">Управление в технических системах</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">24</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10103/">Химическая технология</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10103/" target="_blank">Химическая технология</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">25</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10073/">Химическая технология</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10073/" target="_blank">Химическая технология</a></td>
 		<td>ХТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">26</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10127/">Эксплуатация транспортно-технологических машин и комплексов</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10127/" target="_blank">Эксплуатация транспортно-технологических машин и комплексов</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">27</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9955/">Электроника и наноэлектроника</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9955/" target="_blank">Электроника и наноэлектроника</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">28</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/8838/">Электроэнергетика и электротехника</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/8838/" target="_blank">Электроэнергетика и электротехника</a></td>
 		<td>УралЭНИН</td>
 	</tr>
 	<tr>
 		<th scope="row">29</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/8843/">Энергетическое машиностроение</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/8843/" target="_blank">Энергетическое машиностроение</a></td>
 		<td>УралЭНИН</td>
 	</tr>
 	<tr>
 		<th scope="row">30</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10079/">Энерго- и ресурсосберегающие процессы в химической технологии</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10079/" target="_blank">Энерго- и ресурсосберегающие процессы в химической технологии</a></td>
 		<td>ХТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">31</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9962/">Ядерные физика и технологии</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9962/" target="_blank">Ядерные физика и технологии</a></td>
 		<td>ФТИ</td>
 	</tr>	
 	`);
 PsychotypeUniversityDirections.set(Psychotypes.HumanSign, `
 	<tr>
 		<th scope="row">1</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10035/">Автоматизация технологических процессов и производств</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10035/" target="_blank">Автоматизация технологических процессов и производств</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">2</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10153/">Антропология и этнология</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10153/" target="_blank">Антропология и этнология</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">3</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/9843/">Архитектура</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/9843/" target="_blank">Архитектура</a></td>
 		<td>ИСА </td>
 	</tr>
 	<tr>
 		<th scope="row">4</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10095/">Бизнес-информатика</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10095/" target="_blank">Бизнес-информатика</a></td>
 		<td>ИнЭУ</td>
 	</tr>
 	<tr>
 		<th scope="row">5</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10158/">Востоковедение и африканистика</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10158/" target="_blank">Востоковедение и африканистика</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">6</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10152/">Документоведение и архивоведение</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10152/" target="_blank">Документоведение и архивоведение</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">7</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10312/">Зарубежное регионоведение</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10312/" target="_blank">Зарубежное регионоведение</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">8</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/205-inno">Инноватика</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/205-inno" target="_blank">Инноватика</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">9</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9966/">Инноватика</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9966/" target="_blank">Инноватика</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">10</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9875/">Интеллектуальные системы в гуманитарной сфере</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9875/" target="_blank">Интеллектуальные системы в гуманитарной сфере</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">11</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/information-security/">Информационная безопасность</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/information-security/" target="_blank">Информационная безопасность</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">12</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10118/">Информационные системы и технологии</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10118/" target="_blank">Информационные системы и технологии</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">13</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9952/">Информационные системы и технологии</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9952/" target="_blank">Информационные системы и технологии</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">14</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10151/">История</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10151/" target="_blank">История</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">15</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10150/">Лингвистика</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10150/" target="_blank">Лингвистика</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">16</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/206-math">Математика</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/206-math" target="_blank">Математика</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">17</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/207-mathcopm">Математика и компьютерные науки</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/207-mathcopm" target="_blank">Математика и компьютерные науки</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">18</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/208-moais">Математическое обеспечение и администрирование информационных систем</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/208-moais" target="_blank">Математическое обеспечение и администрирование информационных систем</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">19</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10125/">Материаловедение и технологии материалов</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10125/" target="_blank">Материаловедение и технологии материалов</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">20</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9866/">Политология</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9866/" target="_blank">Политология</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">21</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/applied-informatics/">Прикладная информатика</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/applied-informatics/" target="_blank">Прикладная информатика</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">22</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10139/">Прикладные математика и физика</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10139/" target="_blank">Прикладные математика и физика</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">23</th>
-		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/software-engineering/">Программная инженерия</a></td>
+		<td><a href="https://priem-rtf.urfu.ru/ru/baccalaureate/software-engineering/" target="_blank">Программная инженерия</a></td>
 		<td>ИРИТ-РТФ</td>
 	</tr>
 	<tr>
 		<th scope="row">24</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10156/">Религиоведение</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10156/" target="_blank">Религиоведение</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">25</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10128/">Системный анализ и управление</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10128/" target="_blank">Системный анализ и управление</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">26</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9864/">Социология</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9864/" target="_blank">Социология</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">27</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/211-metrology">Стандартизация и метрология</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/211-metrology" target="_blank">Стандартизация и метрология</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">28</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/9983/">Стандартизация и метрология</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/9983/" target="_blank">Стандартизация и метрология</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 	<tr>
 		<th scope="row">29</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9808/">Торговое дело</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9808/" target="_blank">Торговое дело</a></td>
 		<td>ИнЭУ</td>
 	</tr>
 	<tr>
 		<th scope="row">30</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10140/">Управление качеством</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10140/" target="_blank">Управление качеством</a></td>
 		<td>ФТИ</td>
 	</tr>
 	<tr>
 		<th scope="row">31</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/212-phys">Физика</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/212-phys" target="_blank">Физика</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">32</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10145/">Филология</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10145/" target="_blank">Филология</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">33</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10154/">Философия</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10154/" target="_blank">Философия</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">34</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9874/">Фундаментальная и прикладная лингвистика</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9874/" target="_blank">Фундаментальная и прикладная лингвистика</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">35</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/213-dsp">Фундаментальная информатика и информационные технологии</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/213-dsp" target="_blank">Фундаментальная информатика и информационные технологии</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">36</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/214-chem">Химия</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/214-chem" target="_blank">Химия</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">37</th>
-		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/215-chemphys">Химия, физика и механика материалов</a></td>
+		<td><a href="https://insma.urfu.ru/admissions/bac/44-progs/215-chemphys" target="_blank">Химия, физика и механика материалов</a></td>
 		<td>ИЕНиМ</td>
 	</tr>
 	<tr>
 		<th scope="row">38</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10071/">Экономика</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10071/" target="_blank">Экономика</a></td>
 		<td>ИнЭУ</td>
 	</tr>
 
@@ -571,22 +571,22 @@ PsychotypeUniversityDirections.set(Psychotypes.HumanSign, `
 PsychotypeUniversityDirections.set(Psychotypes.HumanArt, `
 	<tr>
 		<th scope="row">1</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10157/">Дизайн</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10157/" target="_blank">Дизайн</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">2</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9876/">История искусств</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9876/" target="_blank">История искусств</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">3</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9877/">Культурология</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9877/" target="_blank">Культурология</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">4</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10204/">Технология художественной обработки материалов</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10204/" target="_blank">Технология художественной обработки материалов</a></td>
 		<td>ИНМиТ</td>
 	</tr>
 
@@ -594,116 +594,115 @@ PsychotypeUniversityDirections.set(Psychotypes.HumanArt, `
 PsychotypeUniversityDirections.set(Psychotypes.HumanHuman, `
 	<tr>
 		<th scope="row">1</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9920/">Гостиничное дело	</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9920/" target="_blank">Гостиничное дело</a></td>
 		<td>ИФКСиМП</td>
 	</tr>
 	<tr>
 		<th scope="row">2</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9804/">Государственное и муниципальное управление</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9804/" target="_blank">Государственное и муниципальное управление</a></td>
 		<td>ИнЭУ</td>
 	</tr>
 	<tr>
 		<th scope="row">3</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9869/">Журналистика</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9869/" target="_blank">Журналистика</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">4</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10292/">Издательское дело	</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10292/" target="_blank">Издательское дело</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">5</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9871/">Медиакоммуникации</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9871/" target="_blank">Медиакоммуникации</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">6</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9863/">Международные отношения</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9863/" target="_blank">Международные отношения</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">7</th>
-		<td><a href="https://programms.edu.urfu.ru/ru/10075/">Менеджмент</a></td>
+		<td><a href="https://programms.edu.urfu.ru/ru/10075/" target="_blank">Менеджмент</a></td>
 		<td>ИнЭУ</td>
 	</tr>
 	<tr>
 		<th scope="row">8</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9918/">Организация работы с молодежью</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9918/" target="_blank">Организация работы с молодежью</a></td>
 		<td>ИФКСиМП</td>
 	</tr>
 	<tr>
 		<th scope="row">9</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10210/">Педагогическое образование</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10210/" target="_blank">Педагогическое образование</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">10</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10155/">Прикладная этика	</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10155/" target="_blank">Прикладная этика</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">11</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10143/">Психология</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10143/" target="_blank">Психология</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">12</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9806/">Публичная политика и социальные науки</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9806/" target="_blank">Публичная политика и социальные науки</a></td>
 		<td>ИнЭУ</td>
 	</tr>
 	<tr>
 		<th scope="row">13</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9810/">Реклама и связи с общественностью</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9810/" target="_blank">Реклама и связи с общественностью</a></td>
 		<td>ИнЭУ</td>
 	</tr>
 	<tr>
 		<th scope="row">14</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9868/">Реклама и связи с общественностью</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9868/" target="_blank">Реклама и связи с общественностью</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">15</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9919/">Сервис</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9919/" target="_blank">Сервис</a></td>
 		<td>ИФКСиМП</td>
 	</tr>
 	<tr>
 		<th scope="row">16</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9872/">Сервис</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9872/" target="_blank">Сервис</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">17</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10293/">Социальная работа</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10293/" target="_blank">Социальная работа</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">18</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9878/">Социально-культурная деятельность</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9878/" target="_blank">Социально-культурная деятельность</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">19</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10226/">Телевидение</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10226/" target="_blank">Телевидение</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">20</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/10144/">Управление персоналом</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/10144/" target="_blank">Управление персоналом</a></td>
 		<td>УГИ</td>
 	</tr>
 	<tr>
 		<th scope="row">21</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9921/">Физическая культура</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9921/" target="_blank">Физическая культура</a></td>
 		<td>ИФКСиМП</td>
 	</tr>
 	<tr>
 		<th scope="row">22</th>
-		<td><a href="https://programs.edu.urfu.ru/ru/9922/">Физическая культура для лиц с отклонениями в состоянии здоровья</a></td>
+		<td><a href="https://programs.edu.urfu.ru/ru/9922/" target="_blank">Физическая культура для лиц с отклонениями в состоянии здоровья</a></td>
 		<td>ИФКСиМП</td>
 	</tr>
 `);
-
 
 let localResults = {};
 
@@ -726,9 +725,9 @@ const checkAvailableBack = (index) => {
 const renderQuestions = (index) => {
 	const renderButtons = () => {
 		return `
-			<button class="button-input" name="${index}" value="yes" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Да</button>
-			<button class="button-input" name="${index}" value="no" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Нет</button>
-			<button class="button-input" name="${index}" value="nothing" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Затрудняюсь ответить</button>
+			<button class="button-input btn btn-primary" name="${index}" value="yes" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Да</button>
+			<button class="button-input btn btn-primary" name="${index}" value="no" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Нет</button>
+			<button class="button-input btn btn-primary" name="${index}" value="nothing" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Затрудняюсь ответить</button>
 		`;
 	};
 
@@ -770,9 +769,6 @@ const renderResults = () => {
 	let countMaxPercent = Number(percentHumanNature.Count == maxPercentPsychotype) + Number(percentHumanTech.Count == maxPercentPsychotype)
 		+ Number(percentHumanSign.Count == maxPercentPsychotype) + Number(percentHumanArt.Count == maxPercentPsychotype) +
 		Number(percentHumanHuman.Count == maxPercentPsychotype);
-
-	console.log(countMaxPercent);
-	console.log(maxPercentPsychotype)
 
 		results.innerHTML = `
 			<div class="quiz-results-item">
@@ -866,7 +862,9 @@ quiz.addEventListener('click', (event) => {
 			results.classList.add('results--visible');
 			indicator.classList.add('indicator--hidden');
 			btnBack.classList.add('btn-back--hidden');
+			btnBack.classList.add('d-none');
 			btnRestart.classList.add('btn-restart--visible');
+			btnRestart.classList.remove('d-none');
 			renderResults();
 		} else {
 			renderQuestions(nextQuestionIndex);
@@ -889,7 +887,9 @@ quiz.addEventListener('click', (event) => {
 		results.classList.remove('results--visible');
 		indicator.classList.remove('indicator--hidden');
 		btnBack.classList.remove('btn-back--hidden');
+		btnBack.classList.remove('d-none');
 		btnRestart.classList.remove('btn-restart--visible');
+		btnRestart.classList.add('d-none');
 
 		renderQuestions(0);
 	}
@@ -899,6 +899,7 @@ opening.addEventListener('click', (event) => {
 	if (event.target.classList.contains('btn-start')){
 		opening.classList.add('opening--hidden');
 		btnBack.classList.remove('btn-back--hidden');
+		btnBack.classList.remove('d-none');
 
 		renderQuestions(0);
 	}
