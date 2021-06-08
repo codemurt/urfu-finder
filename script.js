@@ -725,9 +725,9 @@ const checkAvailableBack = (index) => {
 const renderQuestions = (index) => {
 	const renderButtons = () => {
 		return `
-			<button class="button-input btn btn-primary" name="${index}" value="yes" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Да</button>
-			<button class="button-input btn btn-primary" name="${index}" value="no" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Нет</button>
-			<button class="button-input btn btn-primary" name="${index}" value="nothing" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Затрудняюсь ответить</button>
+			<button class="button-input btn btn-primary ms-1" name="${index}" value="yes" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Да</button>
+			<button class="button-input btn btn-primary ms-1" name="${index}" value="no" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Нет</button>
+			<button class="button-input btn btn-primary ms-1" name="${index}" value="nothing" id="${DATA[index].Psychotype}_${DATA[index].weightQuestion}">Затрудняюсь ответить</button>
 		`;
 	};
 
@@ -739,8 +739,12 @@ const renderQuestions = (index) => {
 
 	questions.innerHTML = `
 		<div class="quiz-questions-item">
-  			<div class="quiz-questions-item__question">${DATA[index].question}</div>
-  			<div class="quiz-question-item__buttons">${renderButtons()}</div>
+			<div class="row">
+  				<div class="quiz-questions-item__question d-flex justify-content-center">${DATA[index].question}</div>
+  			</div>
+  			<div class="row">
+  				<div class="quiz-question-item__buttons d-flex justify-content-center">${renderButtons()}</div>
+  			</div>
   		</div>
 	`;
 };
