@@ -9,7 +9,8 @@ body {
 }
 
 .quiz-questions, 
-.quiz-indicator {
+.quiz-indicator,
+.btn-restart {
 	margin-bottom: 20px;
 }
 
