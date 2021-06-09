@@ -10,181 +10,211 @@ const DATA = [
 	{
 		question: 'Легко знакомлюсь с людьми.',
 		Psychotype: Psychotypes.HumanHuman,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Охотно и подолгу могу что-нибудь мастерить.',
 		Psychotype: Psychotypes.HumanTech,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Люблю ходить в музеи, театры, на выставки.',
 		Psychotype: Psychotypes.HumanArt,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Охотно и постоянно ухаживаю за растениями, животными.',
 		Psychotype: Psychotypes.HumanNature,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Охотно и подолгу могу что-нибудь вычислять, чертить.',
 		Psychotype: Psychotypes.HumanSign,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'С удовольствием общаюсь со сверстниками или малышами.',
 		Psychotype: Psychotypes.HumanHuman,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
-		question: 'С удовольствием ухаживаю за растениями и животными.',
+		question: 'Люблю смотреть видео про животных и уход за ними.',
 		Psychotype: Psychotypes.HumanNature,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Обычно делаю мало ошибок в письменных работах.',
 		Psychotype: Psychotypes.HumanSign,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Мои изделия обычно вызывают интерес у товарищей, старших.',
 		Psychotype: Psychotypes.HumanTech,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Люди считают, что у меня есть художественные способности.',
 		Psychotype: Psychotypes.HumanArt,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Охотно читаю о растениях, животных.',
 		Psychotype: Psychotypes.HumanNature,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Принимаю участие в спектаклях, концертах.',
 		Psychotype: Psychotypes.HumanArt,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Люблю читать об устройстве механизмов, приборов, машин.',
 		Psychotype: Psychotypes.HumanTech,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Подолгу могу разгадывать головоломки, задачи, ребусы.',
 		Psychotype: Psychotypes.HumanSign,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Легко улаживаю разногласия между людьми.',
 		Psychotype: Psychotypes.HumanHuman,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Считают, что у меня есть способности к работе с техникой.',
 		Psychotype: Psychotypes.HumanTech,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Людям нравится мое художественное творчество.',
 		Psychotype: Psychotypes.HumanArt,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'У меня есть способности к работе с растениями и животными.',
 		Psychotype: Psychotypes.HumanNature,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Я могу ясно излагать свои мысли в письменной форме.',
 		Psychotype: Psychotypes.HumanSign,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Я почти никогда ни с кем не ссорюсь.',
 		Psychotype: Psychotypes.HumanHuman,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Результаты моего технического творчества одобряют даже незнакомые люди.',
 		Psychotype: Psychotypes.HumanTech,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Без особого труда усваиваю иностранные языки.',
 		Psychotype: Psychotypes.HumanSign,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Мне часто случается помогать даже незнакомым людям',
 		Psychotype: Psychotypes.HumanHuman,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Подолгу могу заниматься музыкой, рисованием, читать книги и т. д.',
 		Psychotype: Psychotypes.HumanArt,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Могу влиять на ход развития растений и животных.',
 		Psychotype: Psychotypes.HumanNature,
-		weightQuestion: 2
+		weightQuestion: 2,
+		image: ''
 	},
 
 	{
 		question: 'Люблю разбираться в устройстве механизмов, приборов.',
 		Psychotype: Psychotypes.HumanTech,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Мне обычно удается убедить людей в своей правоте.',
 		Psychotype: Psychotypes.HumanHuman,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Охотно наблюдаю за растениями или животными.',
 		Psychotype: Psychotypes.HumanNature,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Охотно читаю научно-популярную, критическую литературу, публицистику.',
 		Psychotype: Psychotypes.HumanSign,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	},
 
 	{
 		question: 'Стараюсь понять секреты мастерства и пробую свои силы в живописи, музыке и т. п.',
 		Psychotype: Psychotypes.HumanArt,
-		weightQuestion: 1
+		weightQuestion: 1,
+		image: ''
 	}
 ];
 
@@ -739,6 +769,9 @@ const renderQuestions = (index) => {
 
 	questions.innerHTML = `
 		<div class="quiz-questions-item">
+			<div class="row">
+				<img src="images/${DATA[index].image}.png" width="800" height="550" alt="question image" id="questionImage" class="d-flex justify-content-center">
+			</div>
 			<div class="row">
   				<div class="quiz-questions-item__question d-flex justify-content-center">${DATA[index].question}</div>
   			</div>
