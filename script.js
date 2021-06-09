@@ -11,21 +11,21 @@ const DATA = [
 		question: 'Легко знакомлюсь с людьми.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1,
-		image: ''
+		image: '1'
 	},
 
 	{
 		question: 'Охотно и подолгу могу что-нибудь мастерить.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1,
-		image: ''
+		image: '2'
 	},
 
 	{
 		question: 'Люблю ходить в музеи, театры, на выставки.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1,
-		image: ''
+		image: '3'
 	},
 
 	{
@@ -214,7 +214,7 @@ const DATA = [
 		question: 'Стараюсь понять секреты мастерства и пробую свои силы в живописи, музыке и т. п.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1,
-		image: ''
+		image: '3'
 	}
 ];
 
