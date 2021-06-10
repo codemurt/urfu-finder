@@ -32,182 +32,182 @@ const DATA = [
 		question: 'Охотно и постоянно ухаживаю за растениями, животными.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1,
-		image: ''
+		image: '4'
 	},
 
 	{
 		question: 'Охотно и подолгу могу что-нибудь вычислять, чертить.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1,
-		image: ''
+		image: '5'
 	},
 
 	{
 		question: 'С удовольствием общаюсь со сверстниками или малышами.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1,
-		image: ''
+		image: '17'
 	},
 
 	{
 		question: 'Люблю смотреть видео про животных и уход за ними.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1,
-		image: ''
+		image: '13'
 	},
 
 	{
 		question: 'Обычно делаю мало ошибок в письменных работах.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1,
-		image: ''
+		image: '7'
 	},
 
 	{
 		question: 'Мои изделия обычно вызывают интерес у товарищей, старших.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 2,
-		image: ''
+		image: '8'
 	},
 
 	{
 		question: 'Люди считают, что у меня есть художественные способности.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 2,
-		image: ''
+		image: '9'
 	},
 
 	{
 		question: 'Охотно читаю о растениях, животных.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1,
-		image: ''
+		image: '4'
 	},
 
 	{
 		question: 'Принимаю участие в спектаклях, концертах.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1,
-		image: ''
+		image: '9'
 	},
 
 	{
 		question: 'Люблю читать об устройстве механизмов, приборов, машин.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1,
-		image: ''
+		image: '10'
 	},
 
 	{
 		question: 'Подолгу могу разгадывать головоломки, задачи, ребусы.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 2,
-		image: ''
+		image: '11'
 	},
 
 	{
 		question: 'Легко улаживаю разногласия между людьми.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 2,
-		image: ''
+		image: '16'
 	},
 
 	{
 		question: 'Считают, что у меня есть способности к работе с техникой.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 2,
-		image: ''
+		image: '12'
 	},
 
 	{
 		question: 'Людям нравится мое художественное творчество.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 2,
-		image: ''
+		image: '18'
 	},
 
 	{
 		question: 'У меня есть способности к работе с растениями и животными.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 2,
-		image: ''
+		image: '4'
 	},
 
 	{
 		question: 'Я могу ясно излагать свои мысли в письменной форме.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 2,
-		image: ''
+		image: '7'
 	},
 
 	{
 		question: 'Я почти никогда ни с кем не ссорюсь.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1,
-		image: ''
+		image: '6'
 	},
 
 	{
 		question: 'Результаты моего технического творчества одобряют даже незнакомые люди.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1,
-		image: ''
+		image: '8'
 	},
 
 	{
 		question: 'Без особого труда усваиваю иностранные языки.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1,
-		image: ''
+		image: '14'
 	},
 
 	{
 		question: 'Мне часто случается помогать даже незнакомым людям',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 2,
-		image: ''
+		image: '1'
 	},
 
 	{
 		question: 'Подолгу могу заниматься музыкой, рисованием, читать книги и т. д.',
 		Psychotype: Psychotypes.HumanArt,
 		weightQuestion: 1,
-		image: ''
+		image: '15'
 	},
 
 	{
 		question: 'Могу влиять на ход развития растений и животных.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 2,
-		image: ''
+		image: '13'
 	},
 
 	{
 		question: 'Люблю разбираться в устройстве механизмов, приборов.',
 		Psychotype: Psychotypes.HumanTech,
 		weightQuestion: 1,
-		image: ''
+		image: '19'
 	},
 
 	{
 		question: 'Мне обычно удается убедить людей в своей правоте.',
 		Psychotype: Psychotypes.HumanHuman,
 		weightQuestion: 1,
-		image: ''
+		image: '16'
 	},
 
 	{
 		question: 'Охотно наблюдаю за растениями или животными.',
 		Psychotype: Psychotypes.HumanNature,
 		weightQuestion: 1,
-		image: ''
+		image: '4'
 	},
 
 	{
 		question: 'Охотно читаю научно-популярную, критическую литературу, публицистику.',
 		Psychotype: Psychotypes.HumanSign,
 		weightQuestion: 1,
-		image: ''
+		image: '10'
 	},
 
 	{
