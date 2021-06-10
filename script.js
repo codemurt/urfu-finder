@@ -770,7 +770,7 @@ const renderQuestions = (index) => {
 	questions.innerHTML = `
 		<div class="quiz-questions-item">
 			<div class="row">
-				<img src="images/${DATA[index].image}.png" width="800" height="550" alt="question image" id="questionImage" class="d-flex justify-content-center">
+				<img src="images/${DATA[index].image}.png" alt="question image" id="questionImage" class="d-flex justify-content-center">
 			</div>
 			<div class="row">
   				<div class="quiz-questions-item__question d-flex justify-content-center">${DATA[index].question}</div>
